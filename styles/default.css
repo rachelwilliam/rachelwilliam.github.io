@@ -10,9 +10,7 @@ a:hover { color: darkblue; }
 
 header
 {
-  border: midnightblue;
-  border-style: double;
-  font-family: Courier, Verdana, Tahoma, sans-serif;
+  font-family: Courier, serif;
   text-align: center;
   color: darkslateblue;
 }

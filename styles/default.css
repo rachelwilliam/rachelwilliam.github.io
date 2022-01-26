@@ -5,7 +5,11 @@ body
   background-color: lightblue;
 }
 
-a{ color: lightsteelblue; }
+a
+{ 
+  color: lightsteelblue; 
+  font-size: 15px;
+}
 a:hover { color: darkblue; }
 
 header
@@ -13,6 +17,7 @@ header
   font-family: Courier, serif;
   text-align: center;
   color: darkslateblue;
+  padding: 20px;
 }
 
 footer
@@ -20,4 +25,5 @@ footer
   font-family: Courier, serif;
   text-align: center;
   color: darkslateblue;
+  padding: 20px;
 }

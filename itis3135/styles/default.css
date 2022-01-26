@@ -1,13 +1,14 @@
 body
 {
   font-family: Tahoma, sans-serif;
+  text-align: center;
   color: grey;
-  background-color: rgb(2, 114, 114);
+  background-color: lightblue;
 }
 
 a
 { 
-  color: lightsteelblue;
+  color: blueviolet;
   font-size: 15px;
  }
 a:hover { color: darkblue; }

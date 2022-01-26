@@ -12,7 +12,16 @@ header
 {
   border: midnightblue;
   border-style: double;
-  font-family: Courier, Verdana, Tahoma, sans-serif;
+  font-family: Tahoma, sans-serif;
+  text-align: center;
+  color: darkslateblue;
+}
+
+footer
+{
+  border: midnightblue;
+  border-style: dotted;
+  font-family: Tahoma, sans-serif;
   text-align: center;
   color: darkslateblue;
 }

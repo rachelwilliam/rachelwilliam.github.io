@@ -13,6 +13,10 @@ a
  }
 a:hover { color: darkblue; }
 
+p {
+  text-align: justify;
+}
+
 header
 {
   border: midnightblue;

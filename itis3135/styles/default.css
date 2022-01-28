@@ -1,9 +1,14 @@
+h1
+{
+  text-align: center;
+}
+
 body
 {
   font-family: Tahoma, sans-serif;
-  text-align: center;
-  color: grey;
-  background-color: #00203FFF;
+  text-align: left;
+  color: rgb(99, 26, 26);
+  background-color: tan;
 }
 
 a
@@ -19,7 +24,7 @@ p {
 
 header
 {
-  border: lightseagreen;
+  border: maroon;
   border-style: double;
   font-family: Tahoma, sans-serif;
   text-align: center;
@@ -31,6 +36,6 @@ footer
 {
   font-family: Tahoma, sans-serif;
   text-align: center;
-  color: lightseagreen;
+  color: maroon;
   padding: 10px;
 }

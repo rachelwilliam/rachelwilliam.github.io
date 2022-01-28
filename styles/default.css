@@ -1,30 +1,41 @@
+h1
+{
+  text-align: center;
+}
+
 body
 {
   font-family: Tahoma, sans-serif;
-  text-align: center;
-  color: grey;
-  background-color: lightblue;
+  text-align: left;
+  color: rgb(99, 26, 26);
+  background-color: tan;
 }
 
 a
 { 
-  color: blueviolet; 
+  color: brown;
   font-size: 15px;
-}
+ }
 a:hover { color: darkblue; }
+
+p {
+  text-align: justify;
+}
 
 header
 {
-  font-family: Courier, serif;
+  border: maroon;
+  border-style: double;
+  font-family: Tahoma, sans-serif;
   text-align: center;
-  color: darkslateblue;
+  color: #ADEFD1FF;
   padding: 20px;
 }
 
 footer
 {
-  font-family: Courier, serif;
+  font-family: Tahoma, sans-serif;
   text-align: center;
-  color: darkslateblue;
-  padding: 20px;
+  color: maroon;
+  padding: 10px;
 }

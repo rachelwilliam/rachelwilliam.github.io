@@ -3,12 +3,12 @@ body
   font-family: Tahoma, sans-serif;
   text-align: center;
   color: grey;
-  background-color: lightblue;
+  background-color: #00203FFF;
 }
 
 a
 { 
-  color: blueviolet;
+  color: brown;
   font-size: 15px;
  }
 a:hover { color: darkblue; }
@@ -19,11 +19,11 @@ p {
 
 header
 {
-  border: midnightblue;
+  border: lightseagreen;
   border-style: double;
   font-family: Tahoma, sans-serif;
   text-align: center;
-  color: darkslateblue;
+  color: #ADEFD1FF;
   padding: 20px;
 }
 
@@ -31,6 +31,6 @@ footer
 {
   font-family: Tahoma, sans-serif;
   text-align: center;
-  color: darkslateblue;
-  padding: 20px;
+  color: lightseagreen;
+  padding: 10px;
 }

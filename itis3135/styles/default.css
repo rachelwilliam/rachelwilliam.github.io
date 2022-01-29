@@ -7,8 +7,8 @@ body
 {
   font-family: Tahoma, sans-serif;
   text-align: left;
-  color: rgb(99, 26, 26);
-  background-color: tan;
+  color: rgb(175, 6, 6);;
+  background-color: rgb(238, 204, 159);
 }
 
 a
@@ -40,9 +40,10 @@ footer
   padding: 10px;
 }
 
-ol
+ol li
 {
   text-align: center;
+  width: 300px;
 }
 
 table, th, td

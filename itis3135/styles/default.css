@@ -1,4 +1,4 @@
-h1, h2
+h1, h2, h3
 {
   text-align: center;
 }
@@ -38,4 +38,9 @@ footer
   text-align: center;
   color: maroon;
   padding: 10px;
+}
+
+table
+{
+  border: 1px solid black;
 }

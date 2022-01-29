@@ -56,16 +56,6 @@ table, th, td
   margin-right: auto;
 }
 
-tr:nth-child(even)
-{
-  background-color: #000000;
-}
-
-tr:nth-child(odd)
-{
-  background-color: silver;
-}
-
 figure
 {
   text-align: center;

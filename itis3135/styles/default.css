@@ -40,7 +40,7 @@ footer
   padding: 10px;
 }
 
-ol
+ol li
 {
   display: table;
   margin-left: auto;

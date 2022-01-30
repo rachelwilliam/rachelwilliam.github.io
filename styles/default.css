@@ -1,27 +1,23 @@
-h1
+h1, h2, h3
 {
   text-align: center;
 }
-
 body
 {
   font-family: Tahoma, sans-serif;
   text-align: left;
-  color: rgb(175, 6, 6);
+  color: rgb(175, 6, 6);;
   background-color: rgb(238, 204, 159);
 }
-
 a
 { 
   color: brown;
   font-size: 15px;
  }
 a:hover { color: darkblue; }
-
 p {
   text-align: justify;
 }
-
 header
 {
   border: maroon;
@@ -31,7 +27,6 @@ header
   color: #ADEFD1FF;
   padding: 20px;
 }
-
 footer
 {
   font-family: Tahoma, sans-serif;

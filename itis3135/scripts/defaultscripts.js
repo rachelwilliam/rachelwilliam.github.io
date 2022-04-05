@@ -5,7 +5,7 @@ function scriptTest() {
 function welcome() {
     let name = document.getElementById("name").value;
     let feel = document.getElementById("feel").value;
-    document.getElementById("welcome").innerHTML = ("<p>The Ruby Wallaby welcomes you, " + name + "! It seems you are feeling " + feel + "!")
+    document.getElementById("welcome").innerHTML = ("<p>The Ruby Wallaby welcomes you, " + name + "! We're glad you are feeling " + feel + "!")
 }
 
 function getDate() {

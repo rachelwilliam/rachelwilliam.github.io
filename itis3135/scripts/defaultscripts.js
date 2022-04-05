@@ -8,7 +8,7 @@ function welcome() {
     document.getElementById("welcome").innerHTML = ("<p>The Ruby Wallaby welcomes you, " + name + "! We're glad you are feeling " + feel + "!")
 }
 
-function getDate() {
+function datetime() {
     var date = new Date();
     document.getElementById("datetime").innerHTML = date.toLocaleString();
 }

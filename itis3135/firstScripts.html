@@ -3,9 +3,10 @@
     <head>
         <meta charset = "utf-8">
         <title>
-            Rachel William | ITIS 3135 | Ruby Wallaby Home
+            Rachel William | ITIS 3135 | Ruby Wallaby Script
         </title>
         <link href = "styles/default.css" type = "text/css" rel = "stylesheet">
+        <script src="scripts/defaultscripts.js"></script>
     </head>
 
     <body>
@@ -25,10 +26,30 @@
             </nav>
         </header>
         <main>
-            <h2>My First Scripts</h2>
-            <p>
-                Welcome to my first script!
-            </p>
+            <h2>My First Script</h2>
+            <h3>
+                <button type="button" onclick="scriptTest()">Script test!</button>
+            </h3>
+            <h3 id="date"></h3>
+            <h3 id="welcome"></h3>
+            <p>Enter your name:  <input type="text" id="name"> <br> How are you doing? <input type="text" name="feel" id="feel"> <br>
+                <button onclick="welcome();" type="button" name="name" id="button">Submit</button>
+
+                <h4>If the weather is: </h4>
+
+        <button onclick="suggestion1()">Rainy</button>
+        <br>
+        <br>
+        <br>
+        <button onclick="suggestion2()">Windy</button>
+        <br>
+        <button onclick="suggestion3()">Cold</button>
+        <br>
+        <button onclick="suggestion4()">Sunny</button>
+        <br>
+        <button onclick="suggestion5()">Stormy</button>
+        <br>
+
         </main>
         <br>
         <br> 

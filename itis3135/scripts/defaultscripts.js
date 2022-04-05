@@ -40,5 +40,5 @@ function suggestion4() {
 }
 
 function suggestion5() {
-    document.getElementById("suggestion1").innerHTML = ("Watch a movie!")
+    document.getElementById("suggestion5").innerHTML = ("Watch a movie!")
 }

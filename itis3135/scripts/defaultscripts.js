@@ -9,19 +9,9 @@ function welcome() {
 }
 
 function getDate() {
-    let date = new Date();
-    const days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
-    const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-    return days[date.getDay()] + ', ' + months[date.getMonth()] + ' ' + date.getDate();
+    var date = new Date();
+    document.getElementById("datetime").innerHTML = dt.toLocaleString();
 }
-
-function getTime() {
-    let date = new Date();
-    let clock = date.getHours() >= 12 ? 'PM' : 'AM';
-    let min = date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes();
-    return date.getHours() % 12 + ':' + min + ' ' + clock;
-}
-
 
 function suggestion1() {
     document.getElementById("suggestion1").innerHTML = ("Read a good book!")

@@ -4,6 +4,7 @@ while (i == 0) {
     if (validateEntry(number)) 
         {
             alert(getShape(number));
+            i = 1;
         }
     else 
         {

@@ -24,8 +24,6 @@ p {
 }
 header
 {
-  border: maroon;
-  border-style: double;
   font-family: Tahoma, sans-serif;
   text-align: center;;
   margin-top: 50px;

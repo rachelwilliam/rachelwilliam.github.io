@@ -1,4 +1,4 @@
-let sides = number();
+var sides = number();
 if (validateEntry(number)) 
     {
         alert(getShape(number));

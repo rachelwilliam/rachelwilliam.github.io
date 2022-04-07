@@ -37,8 +37,8 @@ footer
 {
   font-family: Tahoma, sans-serif;
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 15px;
 }
 ol
 {

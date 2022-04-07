@@ -9,7 +9,7 @@ while (true) {
         }
     else 
         {
-            alert(errorMessage());
+            sides = errorMessage();
         }
     }
 
@@ -28,7 +28,11 @@ function errorMessage()
 function getShape(numSides) 
 {
     numSides = Math.round(Math.abs(numSides));
-    if (numSides == 1)
+    if (numSides == 0)
+    {
+        return "This shape does not exist"
+    }
+    else if (numSides == 1)
     {
         return "A polygon with 1 side is a Henagon";
     }

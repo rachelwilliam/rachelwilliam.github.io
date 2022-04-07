@@ -35,7 +35,7 @@
 }
 
 .calculator__display {
-    background-color: grey;
+    background-color: black;
     color: #fff;
     font-size: 5em;
     padding: 0.5em 0.75em;
@@ -43,7 +43,7 @@
 }
 
 .calculator__keys {
-    background-color: #999;
+    background-color: rgb(141, 126, 126);
     display: grid;
     grid-gap: 1px;
     grid-template-columns: repeat(4, 1fr);
@@ -63,7 +63,7 @@
 }
 
 .key--equal {
-    background-image: linear-gradient(to bottom, pink, pink);
+    background-image: linear-gradient(to bottom, rgb(0, 217, 255), rgb(0, 217, 255));
     grid-column: -2;
     grid-row: 2 / span 4;
 }

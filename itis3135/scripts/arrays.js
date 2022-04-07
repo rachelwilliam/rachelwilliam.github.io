@@ -14,7 +14,7 @@ function addSalary()
         salaries.push(parseFloat(salary));
     }
     let name = document.getElementById('name').value;
-    name.push(name);
+    names.push(name);
 }
 
 function displayResults()

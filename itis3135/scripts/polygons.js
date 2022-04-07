@@ -1,6 +1,6 @@
 function number() 
 {
-    let number = prompt("The Ruby Wallaby would like a number (1-10)");
+    let number = prompt("The Ruby Wallaby would like a number from 0-10");
 
     if (validateEntry(number)) 
     {
@@ -8,13 +8,13 @@ function number()
     }
     else 
     {
-        alert(getError());
+        alert(errorMessage());
     }
 }
 
-function error() 
+function errorMessage() 
 {
-    var errorPrompt = prompt("Invalid entry. Enter a number from 1-10");
+    var errorPrompt = prompt("Invalid entry. Enter a number from 0-10");
     return errorPrompt;
 }
 

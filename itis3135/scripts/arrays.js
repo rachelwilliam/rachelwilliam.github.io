@@ -38,13 +38,6 @@ function displayResults()
     }
 
     average = sum / salaries.length;
-    //average = salaryAverage.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2});
-
-    //max = salaryMax.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2});
-    
-    //let pTagString = "<p>The average salary is $" + salaryAverage + "</p>";   
-    //let pTagString2 = "<p>The highest salary is $" + salaryMax +  "</p>";
-
     document.getElementById("results").innerHTML = "<h2>Results</>" + "<p>Average salary: $" + average + "</p>" + "<p>Highest salary: $" + max + "</p>";
 }
 
@@ -58,5 +51,5 @@ function displaySalaries()
     }
 
     salaryTable += "</table>";
-    $("results_table").innerHTML = "<h2>Salaries</h2>" + salaryTable;
+    document.getElementById("results_table").innerHTML = "<h2>Salaries</h2> + salaryTable";
 }

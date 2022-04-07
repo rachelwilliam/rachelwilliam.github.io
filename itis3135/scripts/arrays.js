@@ -51,5 +51,5 @@ function displaySalary()
     }
 
     salaryTable += "</table>";
-    document.getElementById("results_table").innerHTML = "<h2>Salaries</h2> + salaryTable";
+    document.getElementById("results_table").innerHTML = "<h2>Salaries</h2>" + salaryTable;
 }

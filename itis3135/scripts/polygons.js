@@ -1,10 +1,8 @@
 var sides = numberSides();
-//var i = 0;
 while (true) {
     if (validateEntry(sides)) 
         {
             alert(getShape(sides));
-            //i = 1;
             break;
         }
     else 

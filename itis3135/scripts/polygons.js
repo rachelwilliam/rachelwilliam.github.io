@@ -1,11 +1,14 @@
 var sides = number();
-if (validateEntry(number)) 
-    {
-        alert(getShape(number));
-    }
-else 
-    {
-        alert(errorMessage());
+var i = 0;
+while (i == 0) {
+    if (validateEntry(number)) 
+        {
+            alert(getShape(number));
+        }
+    else 
+        {
+            alert(errorMessage());
+        }
     }
 
 function number() 

@@ -24,10 +24,10 @@ p {
 }
 header
 {
-  border-bottom: rgb(95, 30, 30);
+  border-bottom: solid rgb(95, 30, 30);
   font-family: Tahoma, sans-serif;
   text-align: center;;
-  margin-top: 100px;
+  margin-top: 25px;
   margin-bottom: 50px;
 }
 main {
@@ -38,6 +38,8 @@ footer
 {
   font-family: Tahoma, sans-serif;
   text-align: center;
+  margin-top: 50px;
+  margin-bottom: 25px;
   padding-top: 20px;
   padding-bottom: 15px;
 }

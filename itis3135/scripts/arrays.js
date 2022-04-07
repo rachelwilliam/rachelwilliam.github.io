@@ -47,7 +47,7 @@ function displaySalaries()
 
     for(let i = 0; i < names.length; i++)
     {
-        salaryTable += "<tr><td>" + names[i] + "</td><td>" + salaries[i]+" </td></tr>";
+        salaryTable += "<tr><td>" + names[i] + "</td><td>" + salaries[i]+" i</td></tr>";
     }
 
     salaryTable += "</table>";

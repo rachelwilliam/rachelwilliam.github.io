@@ -13,13 +13,13 @@ while (i == 0) {
 
 function number() 
 {
-    let number = prompt(parseFloat("The Ruby Wallaby would like a number from 0-10"));
+    let number = parseFloat(prompt("The Ruby Wallaby would like a number from 0-10"));
     return number;
 }
 
 function errorMessage() 
 {
-    var errorPrompt = prompt(parseFloat("Invalid entry. Enter a number from 0-10"));
+    var errorPrompt = parseFloat(prompt("Invalid entry. Enter a number from 0-10"));
     return errorPrompt;
 }
 

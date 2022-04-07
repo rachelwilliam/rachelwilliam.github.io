@@ -62,7 +62,7 @@ table, th, td
 
 tr:nth-child(even)
 {
-    background-color: #000000;
+    background-color: pink;
 }
 
 tr:nth-child(odd)

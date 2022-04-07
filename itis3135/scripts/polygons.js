@@ -1,9 +1,9 @@
-var sides = number();
+var sides = numberSides();
 var i = 0;
 while (i == 0) {
-    if (validateEntry(number)) 
+    if (validateEntry(sides)) 
         {
-            alert(getShape(number));
+            alert(getShape(sides));
             i = 1;
         }
     else 
@@ -12,7 +12,7 @@ while (i == 0) {
         }
     }
 
-function number() 
+function numberSides() 
 {
     let number = parseFloat(prompt("The Ruby Wallaby would like a number from 0-10"));
     return number;

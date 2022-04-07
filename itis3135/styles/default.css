@@ -15,8 +15,8 @@ body
 a
 { 
   text-decoration: none;
-  color: #ce9b8e;
-  font-size: 15px;
+  color: maroon;
+  font-weight: bold;
  }
 a:hover { color: rgb(78, 0, 0); }
 p {

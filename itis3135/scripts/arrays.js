@@ -22,7 +22,7 @@ function displayResults()
     let average = 0;
     let max = 0;
     let sum = 0;
-    let results = "<h2>Results</h2>";
+    //let results = "<h2>Results</h2>";
     
     for (let i = 0; i < salaries.length; i++)
     {
@@ -54,7 +54,7 @@ function displaySalaries()
 
     for(let i = 0; i < names.length; i++)
     {
-        salaryTable += "<tr><td>" + names[i] + "</td><td>" + salaries[i]+" k</td></tr>";
+        salaryTable += "<tr><td>" + names[i] + "</td><td>" + salaries[i]+" i</td></tr>";
     }
 
     salaryTable += "</table>";

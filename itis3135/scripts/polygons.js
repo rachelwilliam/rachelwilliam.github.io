@@ -1,10 +1,11 @@
 var sides = numberSides();
-var i = 0;
-while (i == 0) {
+//var i = 0;
+while (true) {
     if (validateEntry(sides)) 
         {
             alert(getShape(sides));
-            i = 1;
+            //i = 1;
+            break;
         }
     else 
         {
@@ -33,39 +34,39 @@ function getShape(numSides)
     }
     else if (numSides == 2)
     {
-        return "A polygon with 2 side is a Digon";
+        return "A polygon with 2 sides is a Digon";
     }
     else if (numSides == 3)
     {
-        return "A polygon with 3 side is a Trigon";
+        return "A polygon with 3 sides is a Trigon";
     }
     else if (numSides == 4)
     {
-        return "A polygon with 4 side is a Tetragon";
+        return "A polygon with 4 sides is a Tetragon";
     }
     else if (numSides == 5)
     {
-        return "A polygon with 5 side is a Pentagon";
+        return "A polygon with 5 sides is a Pentagon";
     }
     else if (numSides == 6)
     {
-        return "A polygon with 1 side is a Hexagon";
+        return "A polygon with 6 sides is a Hexagon";
     }
     else if (numSides == 7)
     {
-        return "A polygon with 7 side is a Heptagon";
+        return "A polygon with 7 sides is a Heptagon";
     }
     else if (numSides == 8)
     {
-        return "A polygon with 8 side is a Octagon";
+        return "A polygon with 8 sides is an Octagon";
     }
     else if (numSides == 9)
     {
-        return "A polygon with 9 side is a Nonagon";
+        return "A polygon with 9 sides is a Nonagon";
     }
     else if (numSides == 10)
     {
-        return "A polygon with 10 side is a Decagon";
+        return "A polygon with 10 sides is a Decagon";
     }
 
 }

@@ -1,15 +1,17 @@
-function number() 
-{
-    let number = prompt("The Ruby Wallaby would like a number from 0-10");
-
-    if (validateEntry(number)) 
+let sides = number();
+if (validateEntry(number)) 
     {
         alert(getShape(number));
     }
-    else 
+else 
     {
         alert(errorMessage());
     }
+
+function number() 
+{
+    let number = prompt("The Ruby Wallaby would like a number from 0-10");
+    return number;
 }
 
 function errorMessage() 

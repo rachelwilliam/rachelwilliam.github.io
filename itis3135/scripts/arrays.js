@@ -41,7 +41,7 @@ function displayResults()
     document.getElementById("results").innerHTML = "<h2>Results</>" + "<p>Average salary: $" + average + "</p>" + "<p>Highest salary: $" + max + "</p>";
 }
 
-function displaySalaries()
+function displaySalary()
 {
     let salaryTable = "<table><tr><th>Employee Name</th><th>Salary</th></tr>";
 

@@ -91,5 +91,15 @@ abbr {
   text-decoration: none;
   cursor: pointer;
 }
+.button
+{
+  background-color: black;
+  color: white;
+}
+.picture
+{
+  width: 100px;
+  height: 75px;
+}
 
 

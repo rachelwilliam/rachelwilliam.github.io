@@ -96,6 +96,11 @@ abbr {
   background-color: black;
   color: white;
 }
+.image
+{
+  width: 100px;
+  height: 75px;
+}
 
 
 

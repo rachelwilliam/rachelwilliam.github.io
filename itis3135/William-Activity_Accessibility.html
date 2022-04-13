@@ -14,26 +14,7 @@
 </head>
 
 <body>
-  <header>
-    <h1>Rachel William | ITIS 3135 | Ruby Wallaby</h1>
-        <nav>
-            <a href="./">Home</a> ||
-            <a href="introduction.html"> Introduction</a> ||
-            <a href="contract.html"> Contract</a> ||
-            <a href="https://webpages.charlotte.edu/rwill239/">UNCC Homepage</a> ||
-            <a href="tables.html">Tables</a> ||
-            <a href="forms.html">Forms</a> ||
-            <a href="brand-ruby-wallaby.html">Brand</a> ||
-            <a href="website_evaluations.html">Website Evaluations</a> ||
-            <a href="firstScripts.html">First Scripts</a> ||
-            <a href="calculator_fcc.html">Calculator FCC</a> ||
-            <a href="polygon.html">Polygons</a> ||
-            <a href="arrays.html">Arrays</a> ||
-            <a href="Accessibility/William-Activity_Accessibility.html">Arrays</a> ||
-            <a href="hobby/index.html">Hobby</a>
-        </nav>
-        <br>
-  </header>
+  <div data-include="components/header.html"></div>
   <main>
     <h2>Candle Delight</h2>
     <table class="center">
@@ -50,7 +31,7 @@
       <tbody>
         <tr>
           <th>Birthday Candles</th>
-          <td><img clas = "image" src="images/Birthday-Candles.jpg"></td>
+          <td><img clas="image" src="images/Birthday-Candles.jpg"></td>
           <td>
             <ol>
               <li>Comes in a range of fun, vibrant colors</li>
@@ -61,7 +42,7 @@
         </tr>
         <tr>
           <th>Votives</th>
-          <td><img class = "image" src="images/voltives.jpeg"></td>
+          <td><img class="image" src="images/voltives.jpeg"></td>
           <td>
             <ol>
               <li>Inexpensive and easy to use</li>
@@ -71,7 +52,7 @@
         </tr>
         <tr>
           <th>Taper Candles</th>
-          <td><img class = "image" src="images/taper-candles.jpg"></td>
+          <td><img class="image" src="images/taper-candles.jpg"></td>
           <td>
             <ol>
               <li>Commonly know as window candles</li>
@@ -83,12 +64,12 @@
     </table>
     <!--Add the form here-->
     <h2>Enter your name and phone number to win a gift!</h2>
-    <form action = "#" method = "get"></form>
-    <label for = "name">Name:</label>
-    <input id = "name" type = "text" aria-required="true">
+    <form action="#" method="get"></form>
+    <label for="name">Name:</label>
+    <input id="name" type="text" aria-required="true">
 
-    <label for = "number">Phone Number:</label>
-    <input id = "number" type = "text" aria-required="true" required>
+    <label for="number">Phone Number:</label>
+    <input id="number" type="text" aria-required="true" required>
 
     <input class="button" action="#" type="submit" value="Submit">
 
@@ -100,10 +81,8 @@
     <a href="https://dequeuniversity.com/rules/axe/3.2/color-contrast"> Find out if your font
       color and background color passes WCAG standard!</a>
   </main>
-
-  <footer>
-
-  </footer>
+  <div data-include="components/footer.html"></div>
+  <script src="scripts/htmlinclude.js"></script>
 </body>
 
 </html>

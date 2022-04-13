@@ -1,83 +1,56 @@
 <! DOCTYPE html>
-<html lang = "en-US">
+    <html lang="en-US">
+
     <head>
-        <meta charset = "utf-8">
+        <meta charset="utf-8">
         <title>
             Rachel William | ITIS 3135 | Ruby Wallaby Script
         </title>
-        <link href = "styles/default.css" type = "text/css" rel = "stylesheet">
+        <link href="styles/default.css" type="text/css" rel="stylesheet">
         <script src="scripts/defaultscripts.js"></script>
     </head>
 
     <body>
-        <header>
-            <h1>Rachel William | ITIS 3135 | Ruby Wallaby</h1>
-            <nav>
-                <a href = "./">Home</a> ||
-                <a href = "introduction.html"> Introduction</a> ||
-                <a href = "contract.html"> Contract</a> ||
-                <a href = "https://webpages.charlotte.edu/rwill239/">UNCC Homepage</a> ||
-                <a href = "tables.html">Tables</a> ||
-                <a href = "forms.html">Forms</a> ||
-                <a href = "brand-ruby-wallaby.html">Brand</a> ||
-                <a href = "website_evaluations.html">Website Evaluations</a> ||
-                <a href = "firstScripts.html">First Scripts</a> ||
-                <a href = "calculator_fcc.html">Calculator FCC</a> ||
-                <a href="polygon.html">Polygons</a> ||
-                <a href="arrays.html">Arrays</a> ||
-                <a href="hobby/index.html">Hobby</a>
-            </nav>
-            <br>
-        </header>
+        <div data-include="components/header.html"></div>
         <main>
             <h2>My First Script</h2>
             <h3>
                 <button type="button" onclick="scriptTest()">Script test!</button>
             </h3>
-            <h3>Date: <p id="datetime"></p></h3>
+            <h3>Date: <p id="datetime"></p>
+            </h3>
             <script>
                 var date = new Date();
                 document.getElementById("datetime").innerHTML = date.toLocaleString();
             </script>
             <h3 id="welcome"></h3>
-            <p>Enter your name:  <input type="text" id="name"> <br> How are you doing? <input type="text" name="feel" id="feel"> <br>
+            <p>Enter your name: <input type="text" id="name"> <br> How are you doing? <input type="text" name="feel"
+                    id="feel"> <br>
                 <button onclick="welcome();" type="button" name="name" id="button">Submit</button>
 
-                <h4>If the weather is: </h4>
+            <h4>If the weather is: </h4>
 
-        <button onclick="suggestion1()">Rainy</button>
-        <p id="suggestion1"></p>
-        <br>
-        <button onclick="suggestion2()">Windy</button>
-        <p id="suggestion2"></p>
-        <br>
-        <button onclick="suggestion3()">Cold</button>
-        <p id="suggestion3"></p>
-        <br>
-        <button onclick="suggestion4()">Sunny</button>
-        <p id="suggestion4"></p>
-        <br>
-        <button onclick="suggestion5()">Stormy</button>
-        <p id="suggestion5"></p>
-        <br>
+            <button onclick="suggestion1()">Rainy</button>
+            <p id="suggestion1"></p>
+            <br>
+            <button onclick="suggestion2()">Windy</button>
+            <p id="suggestion2"></p>
+            <br>
+            <button onclick="suggestion3()">Cold</button>
+            <p id="suggestion3"></p>
+            <br>
+            <button onclick="suggestion4()">Sunny</button>
+            <p id="suggestion4"></p>
+            <br>
+            <button onclick="suggestion5()">Stormy</button>
+            <p id="suggestion5"></p>
+            <br>
 
         </main>
         <br>
-        <br> 
-        <footer>
-            <nav>
-                <a href = "https://webpages.charlotte.edu/rwill239/">UNCC Homepage</a> ||
-                <a href = "https://github.com/rachelwilliam/rachelwilliam.github.io"> Github</a> ||
-                <a href = "https://rachelwilliam.github.io/">Github.io</a> ||
-                <a href = "https://www.freecodecamp.org/rachelwilliam">freeCodeCamp</a> ||
-                <a href = "https://www.linkedin.com/in/rachel-william-b52033207/"> LinkedIn</a>
-            </nav>
-            <br>
-            Designed by <a href = "william-enterprises.com/">William Enterprises &copy;2022</a>
-            <br>
-            <br>
-            <img src = "images/button_validation_css.png" alt = "">
-            <img src = "images/button_validation_html5.png" alt = "">
-        </footer>
+        <br>
+        <div data-include="components/footer.html"></div>
+        <script src="scripts/htmlinclude.js"></script>
     </body>
-</html>
+
+    </html>

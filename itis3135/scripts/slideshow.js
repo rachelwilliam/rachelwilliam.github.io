@@ -7,8 +7,13 @@ $(document).ready(function()
     {
         picture = $(this).attr("href");
         caption = $(this).attr("id");
-
+        });
+        $("a").click(function()
+        {
+        picture = $(this).attr("href");
+        caption = $(this).attr("id");
         $("#title").text(caption);
         $("#img").attr("src",url);
-        });
+        
     });
+});

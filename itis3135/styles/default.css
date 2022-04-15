@@ -75,6 +75,8 @@ figure
   text-align: center;
 }
 
+* {box-sizing:border-box}
+
 .slideshow-container 
 {
   max-width: 1000px;

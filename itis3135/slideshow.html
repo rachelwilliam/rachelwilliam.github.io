@@ -1,36 +1,68 @@
 <!DOCTYPE html>
-    <html lang="en-US">
+<html lang="en-US">
 
-    <head>
-        <meta charset="utf-8">
-        <title>
-            Rachel William | ITIS 3135 | Ruby Wallaby Slideshow
-        </title>
-        <link href="styles/default.css" type="text/css" rel="stylesheet">
-    </head>
+<head>
+    <meta charset="utf-8">
+    <title>
+        Rachel William | ITIS 3135 | Ruby Wallaby Slideshow
+    </title>
+    <link href="styles/default.css" type="text/css" rel="stylesheet">
+</head>
 
-    <body>
-        <div data-include="components/header.html"></div>
-        <main>
-            <h2>Slideshow</h2>
-            <h3>Flowers</h3>
-            <ul class="ulslide">
-                <li class="lislideshow"><a href="images/tree.jpg" id="Flower 1">Flower 1</a></li>
-           4     <li class="lislideshow"><a href="images/pink.jpg" id="Flower 2">Flower 2</a></li>
-                <li class="lislideshow"><a href="images/butterfly.jpg" id="Flower 3">Flower 3</a></li>
-                <li class="lislideshow"><a href="images/hyacinth.jpg" id="Flower 4">Flower 4</a></li>
-                <li class="lislideshow"><a href="images/yellow.jpg" id="Flower 5">Flower 5</a></li>
-                <li class="lislideshow"><a href="images/red.jpg" id="Flower 6">Flower 6</a></li>
-            </ul>
-            <br>
-        
-        <img src="images/tree.jpg" alt="display" id="image" width="200">
-        <h3 id="title">Flower 1</h3>
-        </main>
+<body>
+    <div data-include="components/header.html"></div>
+    <main>
+        <h2>Slideshow</h2>
+        <h3>Flowers</h3>
+        <div class="slideshow-container">
+            <div class="slides fade">
+                <div class="numbertext">1 / 6</div>
+                <img src="images/tree.jpg" style="width: 100%">
+                <div class="text">Flower 1</div>
+            </div>
+
+            <div class="slides fade">
+                <div class="numbertext">2 / 6</div>
+                <img src="images/butterfly.jpg" style="width: 100%">
+                <div class="text">Flower 2</div>
+            </div>
+
+            <div class="slides fade">
+                <div class="numbertext">3 / 6</div>
+                <img src="images/hyacinth.jpg" style="width: 100%">
+                <div class="text">Flower 3</div>
+            </div>
+
+
+            <div class="slides fade">
+                <div class="numbertext">4 / 6</div>
+                <img src="images/pink.jpg" style="width: 100%">
+                <div class="text">Flower 4</div>
+            </div>
+
+            <div class="slides fade">
+                <div class="numbertext">5 / 6</div>
+                <img src="images/yellow.jpg" style="width: 100%">
+                <div class="text">Flower 5</div>
+            </div>
+
+            <div class="slides fade">
+                <div class="numbertext">6 / 6</div>
+                <img src="images/red.jpg" style="width: 100%">
+                <div class="text">Flower 6</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
         <br>
-        <br>
-        <div data-include="components/footer.html"></div>
-        <script src="scripts/htmlinclude.js"></script>
-    </body>
 
-    </html>
+
+    </main>
+    <br>
+    <br>
+    <div data-include="components/footer.html"></div>
+    <script src="scripts/htmlinclude.js"></script>
+</body>
+
+</html>

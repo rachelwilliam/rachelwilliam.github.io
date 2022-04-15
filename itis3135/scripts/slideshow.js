@@ -1,19 +1,31 @@
-$(document).ready(function() 
-{
-    var picture;
-    var caption;
+let slideindex = 1;
+showslides(slideindex);
 
-    $("a").each(function () 
+function plusslides(n) 
+{
+    showslides(slideindex += n);
+}
+
+function currentslide(n) 
+{
+    showslides(slideindex = n);
+}
+
+function showSlides(n) 
+{
+    let i;
+    let slides = document.getElementsByClassName("slides");
+    if (n > slides.length) 
     {
-        picture = $(this).attr("href");
-        caption = $(this).attr("id");
-        });
-        $("a").click(function()
-        {
-        picture = $(this).attr("href");
-        caption = $(this).attr("id");
-        $("#title").text(caption);
-        $("#img").attr("src",url);
-        
-    });
-});
+        slideindex = 1
+    }
+    if (n < 1) 
+    {
+        slideindex = slides.length
+    }
+    for (i = 0; i < slides.length; i++) 
+    {
+      slides[i].style.display = "none";
+    }
+    slides[slideindex-1].style.display = "block";
+}

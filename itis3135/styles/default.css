@@ -90,11 +90,6 @@ figure
   text-align: center;
 }
 
-img 
-{
-  vertical-align: middle;
-}
-
 .prev, .next 
 {
   cursor: pointer;

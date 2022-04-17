@@ -1,12 +1,12 @@
-function showhide() 
+function showhide(value) 
 {
-    var x = document.getElementById('SectionName');
-    if (x.style.display == "none") 
-    {
-        x.style.display = "block";
-    } 
-    else 
-    {
-        x.style.display = "none";
+    var pages = document.getElementByClassName("pages");
+    document.getElementById(value).style.display = 'block';
+    
+    for(let i = 0; i < pages.length; i++){
+        if(value != pages[i].id)
+        {
+            pages[i].style.display = 'none';
+        }
     }
 }

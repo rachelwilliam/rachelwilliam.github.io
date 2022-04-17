@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <title>Rachel William - Hobby</title>
     <style>
-        body {
+        body 
+        {
             color: #E8F1F2;
             margin-left: 100px;
             margin-right: 150px;
@@ -13,7 +14,8 @@
         }
 
         header,
-        footer {
+        footer 
+        {
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             margin-top: 25px;
             margin-bottom: 25px;
@@ -24,36 +26,42 @@
 
         h1,
         h2,
-        h3 {
+        h3 
+        {
             text-align: center;
             line-height: 10px;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
 
-        main {
+        main 
+        {
             margin-left: 100px;
             margin-right: 100px;
             color: #E8F1F2;
             font-size: 20px;
         }
 
-        p {
+        p 
+        {
             text-align: left;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             color: #E8F1F2;
             font-size: 20px;
         }
 
-        img {
+        img 
+        {
             text-align: center;
         }
 
-        a {
+        a 
+        {
             text-decoration: none;
             color: #E8F1F2;
         }
 
-        .nav {
+        .nav 
+        {
             list-style-type: none;
             margin: 0;
             padding: 0;
@@ -63,11 +71,18 @@
             position: sticky;
         }
 
-        .nav li {
+        .pages
+        {
+            display: none;
+        }
+
+        .nav li 
+        {
             float: left;
         }
 
-        li a {
+        li a 
+        {
             display: block;
             color: #F1F7ED;
             text-align: center;
@@ -83,19 +98,17 @@
         <script src="scripts/hobby.js"></script>
         <br>
         <div class="nav">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#ya">Dystopian YA</a></li>
-            <li><a href="#thrill">Psychological Thriller</a></li>
-            <li><a href="#mystery">Mystery</a></li>
-            <li><a href="#rom">Romance</a></li>
-
+            <ul>
+            <li><h3 id="home">Home</h3></li>
+            <li><h3 id="ya">Dystopian YA</h3></li>
+            <li><h3 id="thrill">Psychological Thriller</h3></li>
+            <li><h3 id="mystery">Mystery</h3></li>
+            <li><h3 id="rom">Romance</h3></li>
+</ul>
     </header>
     </div>
     <main>
-        <a id="home">
-            <br>
-        </a>
-        <section>
+        <section class="pages" id="home">
             <br>
             <h2>Home</h2>
             <br>
@@ -105,10 +118,7 @@
                 Here are some of my favorite books in different genres. Hope you like them!</p>
         </section>
 
-        <a id="ya">
-            <br>
-        </a>
-        <section>
+        <section class="pages" id="ya">
             <br>
             <h2>
                 Dystopian Young Adult
@@ -122,10 +132,7 @@
             </p>
         </section>
 
-        <a id="thrill">
-            <br>
-        </a>
-        <section>
+        <section class="pages" id="thrill">
             <br>
             <h2>
                 Psychological Thriller
@@ -138,10 +145,7 @@
             </p>
         </section>
 
-        <a id="mystery">
-            <br>
-        </a>
-        <section>
+        <section class="pages" id="mystery">
             <br>
             <h2>
                 Mystery
@@ -154,13 +158,23 @@
             </p>
         </section>
 
-        <a id="rom">
-            <br>
-        </a>
-        <section>
+        <section class="pages" id="rom">
             <br>
             <h2>
                 Romance
+            </h2>
+            <br>
+            <h3>Archer's Voice by Mia Sheridan</h3>
+            <p>If I could spend all day reading (and there are days that I do), I would. I've loved reading ever
+                since I picked up my first Junie B. Jones book in first grade.
+                Here are some of my favorite books in different genres. Hope you like them!
+            </p>
+        </section>
+
+        <section class="pages" id="me">
+            <br>
+            <h2>
+                About Me
             </h2>
             <br>
             <h3>Archer's Voice by Mia Sheridan</h3>

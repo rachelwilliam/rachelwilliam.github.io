@@ -15,11 +15,11 @@
             <h2>Form</h2>
             <form action="#">
                 <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name"><br>
+                <input type="text" id="name" name="name" required=""><br>
                 <label for="num">Phone Number:</label><br>
-                <input type="text" id="num" name="num"><br>
+                <input type="text" id="num" name="num" required="" placeholder="(###) ###-####"><br>
                 <label for="email">Email Address:</label><br>
-                <input type="text" id="email" name="email">
+                <input type="text" id="email" name="email" required="" placeholder="yourname@gmail.com">
 
                 <p>Would you like to receive notifications?</p>
                 <input type="radio" id="yes" name="yesorno" value="yes">
@@ -36,7 +36,7 @@
                 <label for="method3">Phone Call</label><br>
                 <input type="checkbox" id="method4" name="method4" value="none">
                 <label for="method4">None</label><br>
-                
+
                 <p>What kind of laptop do you have?</p>
                 <select name="laptop" id="laptop">
                     <option value="hp">HP</option>

@@ -1,6 +1,7 @@
 //<!-- jQuery call to the accordion() method. -->
 $(document).ready(function() {
-    $("#tabs").accordian({
+    $("#accordian").accordian({
+        active: false,
         heightStyle: "content",
         collapsible: true
     });

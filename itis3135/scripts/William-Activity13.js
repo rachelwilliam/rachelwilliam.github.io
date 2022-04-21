@@ -13,9 +13,11 @@ $(document).ready(function () {
         success: function (data) {
             $("#team").html("");
             $.each(data, function () {
-                $.each(this, function (key, val) {
+                $.each(this, function (key, value) {
                     $("#team").append(
-                        "<h3>" + val.name + "</h3>" + val.title + "<br>" + val.bio + "<br>"
+                        "Name: " + value.name + "<br>" +
+                        "Title: " + value.title + "<br>" +
+                        "Bio: " + value.bio + "<br>"
                     );
                 });
             });

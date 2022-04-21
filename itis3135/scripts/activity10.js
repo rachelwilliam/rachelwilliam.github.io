@@ -3,16 +3,16 @@ $(document).ready(function () {
 
     $("#image_list a").each(function () {
         // preload the image for each link
-        let gallery = new Image();
-        gallery.src = $(this).attr("href");
+        var swappedImage = new Image();
+        swappedImage.src = $(this).attr("href");
     });
 
     // set up the event handlers for each link
     $("#image_list a").click(function(evt) {
-        let url = $(this).attr("href");
-        $("#image").attr("src", url);
+        var imageURL = $(this).attr("href");
+        $("#image").attr("src", imageURL);
 
-        let caption = $(this).attr("title");
+        var caption = $(this).attr("title");
         $("#caption").text(caption);
 
         // cancel the default action of each link

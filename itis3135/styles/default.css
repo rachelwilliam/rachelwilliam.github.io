@@ -166,6 +166,9 @@ figure
 
 #image_list
 {
+  float: left;
+  width: 16.67%;
+  padding: 5px;
   list-style-type: none;
   text-align: center;
 }

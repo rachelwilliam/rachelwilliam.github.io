@@ -1,10 +1,13 @@
-h1, h2, h3, h4, h5
-{
+h1,
+h2,
+h3,
+h4,
+h5 {
   text-align: center;
   font-family: Georgia, serif;
 }
-body
-{
+
+body {
   font-family: Tahoma, sans-serif;
   text-align: left;
   color: rgb(78, 0, 0);
@@ -12,31 +15,37 @@ body
   margin-left: 150px;
   margin-right: 150px;
 }
-a
-{ 
+
+a {
   text-decoration: none;
   color: maroon;
   font-weight: bold;
- }
-a:hover { color: rgb(78, 0, 0); }
+}
+
+a:hover {
+  color: rgb(78, 0, 0);
+}
+
 p {
   text-align: justify;
 }
-header
-{
+
+header {
   border-bottom: solid rgb(95, 30, 30);
   border-spacing: 20px;
   font-family: Tahoma, sans-serif;
-  text-align: center;;
+  text-align: center;
+  ;
   margin-top: 25px;
   margin-bottom: 50px;
 }
+
 main {
   margin-left: 100px;
   margin-right: 100px;
 }
-footer
-{
+
+footer {
   font-family: Tahoma, sans-serif;
   text-align: center;
   margin-top: 50px;
@@ -44,8 +53,8 @@ footer
   padding-top: 50px;
   padding-bottom: 15px;
 }
-ol
-{
+
+ol {
   display: table;
   margin-left: auto;
   margin-right: auto;
@@ -53,45 +62,43 @@ ol
   text-align: justify;
 }
 
-table, th, td
-{
+table,
+th,
+td {
   border: 1px solid black;
   margin-left: auto;
   margin-right: auto;
 }
 
-tr:nth-child(even)
-{
-    background-color: pink;
+tr:nth-child(even) {
+  background-color: pink;
 }
 
-tr:nth-child(odd)
-{
-    background-color: #ADEFD1FF;
+tr:nth-child(odd) {
+  background-color: #ADEFD1FF;
 }
 
-figure
-{
+figure {
   text-align: center;
 }
 
-* {box-sizing:border-box}
+* {
+  box-sizing: border-box
+}
 
-.slideshow-container 
-{
+.slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
 
-.myslides 
-{
+.myslides {
   display: none;
   text-align: center;
 }
 
-.prev, .next 
-{
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -106,19 +113,17 @@ figure
   user-select: none;
 }
 
-.next
-{
+.next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-.prev:hover, .next:hover 
-{
-  background-color: rgba(0,0,0,0.8);
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
-.text 
-{
+.text {
   color: #f2f2f2;
   font-size: 15px;
   padding: 8px 12px;
@@ -128,8 +133,7 @@ figure
   text-align: center;
 }
 
-.numbertext 
-{
+.numbertext {
   color: #f2f2f2;
   font-size: 12px;
   padding: 8px 12px;
@@ -137,8 +141,7 @@ figure
   top: 0;
 }
 
-.dot 
-{
+.dot {
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -149,33 +152,40 @@ figure
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover 
-{
+.active,
+.dot:hover {
   background-color: #717171;
 }
-.fade 
-{
+
+.fade {
   animation-name: fade;
   animation-duration: 1.5s;
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
 }
 
-#image_list
-{
+#column {
   float: left;
   width: 16.67%;
   padding: 5px;
+
+}
+
+#image_list {
   list-style-type: none;
   text-align: center;
 }
 
-.image_swap::after {
+#image_list::after {
   content: "";
   clear: both;
   display: table;
 }
-

@@ -164,8 +164,9 @@ figure
   to {opacity: 1}
 }
 
-.image_swap
+#image_list
 {
+  list-style-type: none;
   text-align: center;
 }
 

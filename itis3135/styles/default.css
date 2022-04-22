@@ -173,3 +173,9 @@ figure
   text-align: center;
 }
 
+.image_swap::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+

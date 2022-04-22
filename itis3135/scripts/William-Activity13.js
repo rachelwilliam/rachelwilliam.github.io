@@ -17,7 +17,8 @@ $(document).ready(function () {
                     $("#team").append(
                         "Name: " + value.name + "<br>" +
                         "Title: " + value.title + "<br>" +
-                        "Bio: " + value.bio + "<br>"
+                        "Bio: " + value.bio + "<br>" +
+                        "<br>"
                     );
                 });
             });

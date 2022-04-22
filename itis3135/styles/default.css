@@ -172,7 +172,7 @@ figure {
   }
 }
 
-#column {
+.column {
   float: left;
   width: 16.67%;
   padding: 5px;

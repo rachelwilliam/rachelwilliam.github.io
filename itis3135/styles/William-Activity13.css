@@ -11,7 +11,7 @@ body {
 }
 header {
 	height: 100px;
-	background: url('images/logo.gif') no-repeat 25px;
+	background: url('/rwill239/itis3135/images/logo.gif') no-repeat 25px;
 }
  main h2 {
 	font-size: 14px;

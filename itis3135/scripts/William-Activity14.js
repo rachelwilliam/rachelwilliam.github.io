@@ -2,7 +2,7 @@ $(document).ready(function () {
     $("#nav_list li").click(function () {
         $.ajax({
             type: "get",
-            url: "json_files/" + $(this).attr("title") + ".json",
+            url: "json_files/" + $(this).children("a").attr("title") + ".json",
             error: function (xhr, status, error) {
                 alert("Error: " + xhr.status + " - " + error);
             },

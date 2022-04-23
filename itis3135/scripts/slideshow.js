@@ -1,4 +1,4 @@
-let slideIndex = 1;
+/*let slideIndex = 1;
 showSlides(slideIndex);
 
 // Next/previous controls
@@ -25,9 +25,9 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
-}
+}*/
 
-/*
+
 $(document).ready(function() {
   $("#image_list a").each(function() {
     var imageURL=$(this).attr("href");
@@ -45,4 +45,4 @@ $(document).ready(function() {
   });
  
 $("li:nth-child(1) a").focus(); 
-}); */
+});

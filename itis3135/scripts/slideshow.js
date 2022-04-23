@@ -30,17 +30,17 @@ function showSlides(n) {
 
 $(document).ready(function() {
   $("#slideshow a").each(function() {
-    var imageURL=$(this).attr("href");
+    var url=$(this).attr("href");
     var caption=$(this).attr("title");
 
-    var galleryImage=new Image();
-    galleryImage.src=imageURL;
+    var slideshowImage=new Image();
+    slideshowImage.src=url;
 
-    $(this).click(function(evt) {
-      $("#image").attr("src", imageURL);
+    $(this).click(function(event) {
+      $("#image").attr("src", url);
       $("#caption").text(caption);
 
-      evt.preventDefault();
+      event.preventDefault();
     });
   });
  

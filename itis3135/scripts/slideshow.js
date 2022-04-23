@@ -29,7 +29,7 @@ function showSlides(n) {
 
 
 $(document).ready(function() {
-  $("#image_list a").each(function() {
+  $("#slideshow a").each(function() {
     var imageURL=$(this).attr("href");
     var caption=$(this).attr("title");
 

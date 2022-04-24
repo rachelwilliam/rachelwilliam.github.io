@@ -1,6 +1,6 @@
 //<!-- jQuery call to the accordion() method. -->
 $(document).ready(function() {
-    $("#accordian").accordian({
+    $("#accordion").accordion({
         heightStyle: "content",
         collapsible: true
     });

@@ -78,6 +78,22 @@
         figcaption {
             color: rgb(250, 235, 215);
         }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        tr:nth-child(even) {
+            background-color: pink;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #ADEFD1FF;
+        }
     </style>
 </head>
 
@@ -87,12 +103,12 @@
         <script src="scripts/hobby.js"></script>
         <br>
         <nav>
-            <a href="#" onclick="show('home','best', 'where', 'mystery', 'rom', 'me');">Home</a> |*| 
-            <a href="#" onclick="show('best', 'home', 'where', 'mystery', 'rom', 'me');">Best Times</a> |*|
-            <a href="#" onclick="show('where', 'home','best', 'mystery', 'rom', 'me');">Where</a> |*|
-            <a href="#" onclick="show('mystery', 'home','best', 'where', 'rom', 'me');">Mystery</a> |*|
-            <a href="#" onclick="show('rom', 'home','best', 'where', 'mystery', 'me');">Romance</a> |*|
-            <a href="#" onclick="show( 'me', 'home','best', 'where', 'mystery', 'rom');">About Me</a>
+            <a href="#" onclick="show('home','best', 'where', 'favorite', 'rom', 'me');">Home</a> |*|
+            <a href="#" onclick="show('best', 'home', 'where', 'favorite', 'rom', 'me');">Best Times</a> |*|
+            <a href="#" onclick="show('where', 'home','best', 'favorite', 'rom', 'me');">Where</a> |*|
+            <a href="#" onclick="show('favorite', 'home','best', 'where', 'rom', 'me');">Mystery</a> |*|
+            <a href="#" onclick="show('rom', 'home','best', 'where', 'favorite', 'me');">Romance</a> |*|
+            <a href="#" onclick="show( 'me', 'home','best', 'where', 'favorite', 'rom');">About Me</a>
         </nav>
     </header>
     <main>
@@ -142,36 +158,72 @@
                 Where
             </h2>
             <br>
-            <p>There are many places where you can find books. It depends on whether you want a physical copy or would prefer an ebook. 
-                A lot of people like to use kindles to read. I prefer reading physical books, but if I can't get a hold of one and I find an
-                 ebook, I don't mind.
+            <p>There are many places where you can find books. It depends on whether you want a physical copy or would
+                prefer an ebook.
+                A lot of people like to use kindles to read. I prefer reading physical books, but if I can't get a hold
+                of one and I find an
+                ebook, I don't mind.
             </p>
             <figure><img src="images/library.jpg" alt="vacation" height="300" width="250">
                 <figcaption>Library</figcaption>
             </figure>
             <h4>Local libraries</h4>
-            <p>I live in Harrisburg, NC, so the closest library to my house is the Cabarrus County Public Library. They have a large collection of
-             books of every genre. Local library membership is free if you are a resident of the county. They also have many ebooks that can be 
-             accessed through an associated website.</p>
+            <p>I live in Harrisburg, NC, so the closest library to my house is the Cabarrus County Public Library. They
+                have a large collection of
+                books of every genre. Local library membership is free if you are a resident of the county. They also
+                have many ebooks that can be
+                accessed through an associated website.</p>
 
-             <h4>Thrift Stores and Garage Sales</h4>
-                <p>Yes, books aren't cheap and it really adds up when you go to a bookstore. I've gotten a lot of books for lower costs 
-                    at garage sales and thrift stores. Second Look Books is a a second-hand book store that I go to often. It is a small family run
-                     business. It is also a great place to meet fellow bibliophiles.
-                </p>
+            <h4>Thrift Stores and Garage Sales</h4>
+            <p>Yes, books aren't cheap and it really adds up when you go to a bookstore. I've gotten a lot of books for
+                lower costs
+                at garage sales and thrift stores. Second Look Books is a a second-hand book store that I go to often.
+                It is a small family run
+                business. It is also a great place to meet fellow bibliophiles.
+            </p>
         </section>
 
-        <section class="pages" id="mystery" style="display:none">
+        <section class="pages" id="favorite" style="display:none">
             <br>
             <h2>
-                Mystery
+                Favorites
             </h2>
             <br>
-            <h3>Mary Higgins Clark</h3>
-            <p>If I could spend all day reading (and there are days that I do), I would. I've loved reading ever
-                since I picked up my first Junie B. Jones book in first grade.
-                Here are some of my favorite books in different genres. Hope you like them!
-            </p>
+            <figure>
+                <table>
+                    <tr>
+                        <th>Genre</th>
+                        <th>Title</th>
+                        <th>Author</th>
+                    </tr>
+                    <tr>
+                        <td>Mystery</td>
+                        <td>The Guest List</td>
+                        <td>Lucy Foley</td>
+                    </tr>
+                    <tr>
+                        <td>Thriller</td>
+                        <td>The Woman in the Window</td>
+                        <td>A.J. Finn</td>
+                    </tr>
+                    <tr>
+                        <td>Dystopian Fiction</td>
+                        <td>Legend Series</td>
+                        <td>Marie Lu</td>
+                    </tr>
+                    <tr>
+                        <td>Fantasy</td>
+                        <td>Throne of Glass Series</td>
+                        <td>Sarah J. Maas</td>
+                    </tr>
+                    <tr>
+                        <td>Romance</td>
+                        <td>Archer's Voice</td>
+                        <td>Mia Sheridan</td>
+                    </tr>
+                </table>
+                <figcaption>Rachel's favorite books</figcaption>
+            </figure>
         </section>
 
         <section class="pages" id="rom" style="display:none">

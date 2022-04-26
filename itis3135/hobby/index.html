@@ -97,7 +97,7 @@
         <h1>Rachel William | ITIS 3135 | Hobby</h1>
         <script src="scripts/hobby.js"></script>
         <br>
-        <div class="nav">
+        <!--<div class="nav">
             <ul>
             <li><h3 id="home">Home</h3></li>
             <li><h3 id="ya" onclick="showhide('ya')">Dystopian YA</h3></li>
@@ -105,7 +105,15 @@
             <li><h3 id="mystery" onclick="showhide('mystery')">Mystery</h3></li>
             <li><h3 id="rom" onclick="showhide('rom')">Romance</h3></li>
             <li><h3 id="me" onclick="showhide('me')">About Me</h3></li>
-</ul>
+</ul> -->
+<nav>
+    <a href="#" onclick="show('home','ya', 'thrill', 'mystery', 'rom', 'me');">Home</a>
+    <a href="#" onclick="show('ya', 'home', 'thrill', 'mystery', 'rom', 'me');">YA</a>
+    <a href="#" onclick="show('thrill', 'home','ya', 'mystery', 'rom', 'me');">Thriller</a>
+    <a href="#" onclick="show('mystery', 'home','ya', 'thrill', 'rom', 'me');">Mystery</a>
+    <a href="#" onclick="show('rom', 'home','ya', 'thrill', 'mystery', 'me');">Romance</a>
+    <a href="#" onclick="show( 'me', 'home','ya', 'thrill', 'mystery', 'rom');">About Me</a>
+</nav>
     </header>
     </div>
     <main>
@@ -119,7 +127,7 @@
                 Here are some of my favorite books in different genres. Hope you like them!</p>
         </section>
 
-        <section class="pages" id="ya">
+        <section class="pages" id="ya" style="display:none">
             <br>
             <h2>
                 Dystopian Young Adult
@@ -133,7 +141,7 @@
             </p>
         </section>
 
-        <section class="pages" id="thrill">
+        <section class="pages" id="thrill" style="display:none">
             <br>
             <h2>
                 Psychological Thriller
@@ -146,7 +154,7 @@
             </p>
         </section>
 
-        <section class="pages" id="mystery">
+        <section class="pages" id="mystery" style="display:none">
             <br>
             <h2>
                 Mystery
@@ -159,7 +167,7 @@
             </p>
         </section>
 
-        <section class="pages" id="rom">
+        <section class="pages" id="rom" style="display:none">
             <br>
             <h2>
                 Romance
@@ -172,7 +180,7 @@
             </p>
         </section>
 
-        <section class="pages" id="me">
+        <section class="pages" id="me" style="display:none">
             <br>
             <h2>
                 About Me

@@ -5,17 +5,15 @@
     <meta charset="UTF-8">
     <title>Rachel William - Hobby</title>
     <style>
-        body 
-        {
+        body {
             color: #E8F1F2;
-            margin-left: 100px;
+            margin-left: 150px;
             margin-right: 150px;
             background-color: #4a235a;
         }
 
         header,
-        footer 
-        {
+        footer {
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             margin-top: 25px;
             margin-bottom: 25px;
@@ -26,68 +24,45 @@
 
         h1,
         h2,
-        h3 
-        {
+        h3 {
             text-align: center;
             line-height: 10px;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-family: Georgia, serif;
         }
 
-        main 
-        {
+        main {
             margin-left: 100px;
             margin-right: 100px;
             color: #E8F1F2;
             font-size: 20px;
         }
 
-        p 
-        {
+        p {
             text-align: left;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             color: #E8F1F2;
             font-size: 20px;
         }
 
-        img 
-        {
+        img {
             text-align: center;
         }
 
-        a 
-        {
+        a {
             text-decoration: none;
             color: #E8F1F2;
         }
 
-        .nav 
-        {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-            overflow: hidden;
-            background-color: rgba(46, 45, 45, 0.5);
-            position: sticky;
+        a:hover {
+            color: rgb(44, 9, 44);
         }
 
-        .pages
-        {
+        .pages {
             display: block;
         }
 
-        .nav li 
-        {
-            float: left;
-        }
-
-        li a 
-        {
-            display: block;
-            color: #F1F7ED;
+        figure {
             text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
         }
     </style>
 </head>
@@ -97,23 +72,14 @@
         <h1>Rachel William | ITIS 3135 | Hobby</h1>
         <script src="scripts/hobby.js"></script>
         <br>
-        <!--<div class="nav">
-            <ul>
-            <li><h3 id="home">Home</h3></li>
-            <li><h3 id="ya" onclick="showhide('ya')">Dystopian YA</h3></li>
-            <li><h3 id="thrill" onclick="showhide('thrill')">Psychological Thriller</h3></li>
-            <li><h3 id="mystery" onclick="showhide('mystery')">Mystery</h3></li>
-            <li><h3 id="rom" onclick="showhide('rom')">Romance</h3></li>
-            <li><h3 id="me" onclick="showhide('me')">About Me</h3></li>
-</ul> -->
-<nav>
-    <a href="#" onclick="show('home','ya', 'thrill', 'mystery', 'rom', 'me');">Home</a>
-    <a href="#" onclick="show('ya', 'home', 'thrill', 'mystery', 'rom', 'me');">YA</a>
-    <a href="#" onclick="show('thrill', 'home','ya', 'mystery', 'rom', 'me');">Thriller</a>
-    <a href="#" onclick="show('mystery', 'home','ya', 'thrill', 'rom', 'me');">Mystery</a>
-    <a href="#" onclick="show('rom', 'home','ya', 'thrill', 'mystery', 'me');">Romance</a>
-    <a href="#" onclick="show( 'me', 'home','ya', 'thrill', 'mystery', 'rom');">About Me</a>
-</nav>
+        <nav>
+            <a href="#" onclick="show('home','ya', 'thrill', 'mystery', 'rom', 'me');">Home</a>
+            <a href="#" onclick="show('ya', 'home', 'thrill', 'mystery', 'rom', 'me');">YA</a>
+            <a href="#" onclick="show('thrill', 'home','ya', 'mystery', 'rom', 'me');">Thriller</a>
+            <a href="#" onclick="show('mystery', 'home','ya', 'thrill', 'rom', 'me');">Mystery</a>
+            <a href="#" onclick="show('rom', 'home','ya', 'thrill', 'mystery', 'me');">Romance</a>
+            <a href="#" onclick="show( 'me', 'home','ya', 'thrill', 'mystery', 'rom');">About Me</a>
+        </nav>
     </header>
     </div>
     <main>
@@ -186,10 +152,12 @@
                 About Me
             </h2>
             <br>
-            <h3>Archer's Voice by Mia Sheridan</h3>
-            <p>If I could spend all day reading (and there are days that I do), I would. I've loved reading ever
-                since I picked up my first Junie B. Jones book in first grade.
-                Here are some of my favorite books in different genres. Hope you like them!
+            <figure><img src="images/introduction.jpg" alt="Rachel and her dog" height="200" width="160"></figure>
+            <p>My name is Rachel William. I'm a junior at UNC Charlotte. One hobby that has stuck since I was a kid is
+                reading.
+                I love visiting libraries and finding books at thrift stores. Book stores always test my self control
+                and I don't
+                think I've ever left one without atleast one book in my hand.
             </p>
         </section>
 

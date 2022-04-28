@@ -8,10 +8,10 @@ function welcome() {
     document.getElementById("welcome").innerHTML = ("<p>The Ruby Wallaby welcomes you, " + name + "! We're glad you are feeling " + feel + "!")
 }
 
-/*function datetime() {
+function datetime() {
     var date = new Date();
-    document.getElementById("datetime").innerHTML = (`Date: ${date.toLocaleString()}`);
-}*/
+    document.getElementById("datetime").innerHTML = date.toLocaleString();
+}
 
 function suggestion1() {
     document.getElementById("suggestion1").innerHTML = ("Read a good book!")

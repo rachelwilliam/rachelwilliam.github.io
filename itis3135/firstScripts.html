@@ -1,27 +1,26 @@
 <!DOCTYPE html>
-    <html lang="en-US">
+<html lang="en-US">
 
-    <head>
-        <meta charset="utf-8">
-        <title>
-            Rachel William | ITIS 3135 | Ruby Wallaby Script
-        </title>
-        <link href="styles/default.css" type="text/css" rel="stylesheet">
-        <script src="scripts/defaultscripts.js"></script>
-    </head>
+<head>
+    <meta charset="utf-8">
+    <title>
+        Rachel William | ITIS 3135 | Ruby Wallaby Script
+    </title>
+    <link href="styles/default.css" type="text/css" rel="stylesheet">
+    <script src="scripts/defaultscripts.js"></script>
+</head>
 
-    <body>
-        <div data-include="components/header.html"></div>
-        <main>
-            <h2>My First Script</h2>
-            <h3>
-                <button type="button" onclick="scriptTest()">Script test!</button>
-            </h3>
-            <h3>Date: <p id="datetime"></p>
-            </h3>
+<body>
+    <div data-include="components/header.html"></div>
+    <main>
+        <h2>My First Script</h2>
+        <h3>
+            <button type="button" onclick="scriptTest()">Script test!</button>
+        </h3>
+        <h3 id="datetime" </h3>
             <script>
                 var date = new Date();
-                document.getElementById("datetime").innerHTML = date.toLocaleString();
+                document.getElementById("datetime").innerHTML = "Date" + date.toLocaleString();
             </script>
             <h3 id="welcome"></h3>
             <p>Enter your name: <input type="text" id="name"> <br> How are you doing? <input type="text" name="feel"
@@ -46,11 +45,11 @@
             <p id="suggestion5"></p>
             <br>
 
-        </main>
-        <br>
-        <br>
-        <div data-include="components/footer.html"></div>
-        <script src="scripts/htmlinclude.js"></script>
-    </body>
+    </main>
+    <br>
+    <br>
+    <div data-include="components/footer.html"></div>
+    <script src="scripts/htmlinclude.js"></script>
+</body>
 
-    </html>
+</html>

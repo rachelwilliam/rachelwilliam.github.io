@@ -10,7 +10,7 @@ function welcome() {
 
 function datetime() {
     var date = new Date();
-    document.getElementById("datetime").innerHTML = "Date: " + date.toLocaleString();
+    document.getElementById("datetime").innerHTML = ("Date: " + date.toLocaleString())
 }
 
 function suggestion1() {

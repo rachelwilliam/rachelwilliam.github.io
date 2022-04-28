@@ -8,31 +8,13 @@
   <meta name="Description" content="Testing website for accessibility.">
 
   <!-- css -->
-  <link rel="stylesheet" href="Accessibility/William-Activity_Accessibility.css">
+  <link rel="stylesheet" href="William-Activity_Accessibility.css">
   <title>Test For Accessibility</title>
 
 </head>
 
 <body>
   <header>
-    <h1>Rachel William | ITIS 3135 | Ruby Wallaby</h1>
-        <nav>
-            <a href="./">Home</a> ||
-            <a href="introduction.html"> Introduction</a> ||
-            <a href="contract.html"> Contract</a> ||
-            <a href="https://webpages.charlotte.edu/rwill239/">UNCC Homepage</a> ||
-            <a href="tables.html">Tables</a> ||
-            <a href="forms.html">Forms</a> ||
-            <a href="brand-ruby-wallaby.html">Brand</a> ||
-            <a href="website_evaluations.html">Website Evaluations</a> ||
-            <a href="firstScripts.html">First Scripts</a> ||
-            <a href="calculator_fcc.html">Calculator FCC</a> ||
-            <a href="polygon.html">Polygons</a> ||
-            <a href="arrays.html">Arrays</a> ||
-            <a href="Accessibility/William-Activity_Accessibility.html">Arrays</a> ||
-            <a href="hobby/index.html">Hobby</a>
-        </nav>
-        <br>
   </header>
   <main>
     <h2>Candle Delight</h2>
@@ -50,7 +32,7 @@
       <tbody>
         <tr>
           <th>Birthday Candles</th>
-          <td><img src="images/Birthday-Candles.jpg"></td>
+          <td><img src="images/Birthday-Candles.jpg" alt="birthday candles" height="150" width="150"></td>
           <td>
             <ol>
               <li>Comes in a range of fun, vibrant colors</li>
@@ -61,7 +43,7 @@
         </tr>
         <tr>
           <th>Votives</th>
-          <td><img src="images/voltives.jpeg"></td>
+          <td><img src="images/voltives.jpeg" alt="voltives" height="150" width="150"></td>
           <td>
             <ol>
               <li>Inexpensive and easy to use</li>
@@ -71,7 +53,7 @@
         </tr>
         <tr>
           <th>Taper Candles</th>
-          <td><img src="images/taper-candles.jpg"></td>
+          <td><img src="images/taper-candles.jpg" alt="taper candles" height="150" width="150"></td>
           <td>
             <ol>
               <li>Commonly know as window candles</li>
@@ -83,15 +65,15 @@
     </table>
     <!--Add the form here-->
     <h2>Enter your name and phone number to win a gift!</h2>
-    <form action = "#" method = "get"></form>
-    <label for = "name">Name:</label>
-    <input id = "name" type = "text" aria-required="true">
+    <form action="#" method="get">
+      <label>Name:</label>
+      <input id="name" type="text" aria-required="true" placeholder="Name" required>
 
-    <label for = "number">Phone Number:</label>
-    <input id = "number" type = "text" aria-required="true" required>
+      <label for="number">Phone Number:</label>
+      <input id="number" type="text" aria-required="true" placeholder="980 222-2111" required>
 
-    <input class="button" action="#" type="submit" value="Submit">
-
+      <input class="button" action="#" type="submit" value="Submit">
+    </form>
 
     <div class="whitespace"></div>
     <a href="https://teachaccess.github.io/tutorial/#/12">Click here to find more about accessibility</a>
@@ -102,7 +84,11 @@
   </main>
 
   <footer>
-
+    <br>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+      <img src="images/button_validation_css.png" alt="css validator"></a>
+    <a href="https://validator.w3.org/check?uri=referer">
+      <img src="images/button_validation_html5.png" alt="html validator"></a>
   </footer>
 </body>
 

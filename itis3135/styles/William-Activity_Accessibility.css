@@ -96,10 +96,14 @@ abbr {
   background-color: black;
   color: white;
 }
-.picture
-{
-  width: 100px;
-  height: 75px;
+
+footer {
+  font-family: Tahoma, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  padding-top: 50px;
+  padding-bottom: 15px;
 }
 
 

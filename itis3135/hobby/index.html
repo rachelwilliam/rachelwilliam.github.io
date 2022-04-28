@@ -77,6 +77,7 @@
 
         figcaption {
             color: rgb(250, 235, 215);
+            font-size: 10px;
         }
 
         table,
@@ -93,6 +94,19 @@
 
         tr:nth-child(odd) {
             background-color: rgb(0, 100, 75);
+        }
+
+        .column {
+            float: left;
+            width: 50%;
+            padding: 5px;
+        }
+
+        /* Clear floats after image containers */
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
         }
     </style>
 </head>
@@ -116,11 +130,29 @@
             <br>
             <h2>Home</h2>
             <br>
+            <div class="row">
+                <div class="column">
+                    <figure>
+                        <img src="images/bookshome.jpg" alt="home library" style="width:100%">
+                        <figcaption>Some of Rachel's Books</figcaption>
+                    </figure>
+                </div>
+                <div class="column">
+                    <figure>
+                        <img src="images/libraryhome.jpg" alt="atkins" style="width:100%">
+                        <figcaption>Atkins Library</figcaption>
+                    </figure>
+                </div>
+            </div>
             <p>"Books are a uniquely portable magic." -Stephen King</p>
-            <p>If I could spend all day reading (and there are days that I do), I would. I've loved reading ever since I
-                picked up my first Junie B. Jones book in first grade. It is a really great hobby. I'm constantly expanding my vocabulary.
-                It always blows my mind that words on a piece of paper can make you laugh, cry, or cringe (when the main character does something embarrassing).
-                Here is some information about the benefits of reading and how to get started if you're interested. Hope you like them!</p>
+            <p>If I could spend all day reading (and there are days that I do), I would. I've loved reading ever
+                since I
+                picked up my first Junie B. Jones book in first grade. It is a really great hobby. I'm constantly
+                expanding my vocabulary.
+                It always blows my mind that words on a piece of paper can make you laugh, cry, or cringe (when the
+                main character does something embarrassing).
+                Here is some information about the benefits of reading and how to get started if you're interested.
+                Hope you like them!</p>
         </section>
 
         <section class="pages" id="best" style="display:none">
@@ -131,7 +163,8 @@
             <br>
             <p>There is never a wrong time to read. You can pick up a book at any time or any place. Sometimes I decide
                 to finish
-                a chapter and go to sleep. Next thing I know, it's 4 am and I would do it again! I'm the kind of person who always has 
+                a chapter and go to sleep. Next thing I know, it's 4 am and I would do it again! I'm the kind of person
+                who always has
                 a book in my bag, just in case. These are some of my
                 favorite times to read:
             </p>
@@ -265,7 +298,7 @@
             <p>My name is Rachel William. I'm a junior at UNC Charlotte majoring in Computer Science with a
                 concentration in Data Science.
                 I was born and raised in a little town in California. I
-                moved to Charlotte a couple of years ago.  I love to bake, hike, and go on walks with my dog.</p>
+                moved to Charlotte a couple of years ago. I love to bake, hike, and go on walks with my dog.</p>
             <p> One hobby that has stuck since I was a kid is
                 reading. I love visiting libraries and finding books at thrift stores. Book stores always test my self
                 control and I don't think I've ever left one without atleast one book in my hand.

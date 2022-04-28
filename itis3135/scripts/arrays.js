@@ -1,7 +1,7 @@
 let names = [];
 let salaries = [];
 
-function addSalary()
+function addsalary()
 {
     let salary = document.getElementById("salary").value;
     if (salary == "")
@@ -17,12 +17,11 @@ function addSalary()
     names.push(name);
 }
 
-function displayResults()
+function results()
 {
     let average = 0;
     let max = 0;
     let sum = 0;
-    //let results = "<h2>Results</h2>";
     
     for (let i = 0; i < salaries.length; i++)
     {
@@ -41,15 +40,15 @@ function displayResults()
     document.getElementById("results").innerHTML = "<h2>Results</>" + "<p>Average salary: $" + average + "</p>" + "<p>Highest salary: $" + max + "</p>";
 }
 
-function displaySalary()
+function displaysalary()
 {
-    let salaryTable = "<table><tr><th>Employee Name</th><th>Salary</th></tr>";
+    let salarytable = "<table><tr><th>Employee Name</th><th>Salary</th></tr>";
 
     for(let i = 0; i < names.length; i++)
     {
-        salaryTable += "<tr><td>" + names[i] + "</td><td>" + salaries[i]+ "</td></tr>";
+        salarytable += "<tr><td>" + names[i] + "</td><td>" + salaries[i]+ "</td></tr>";
     }
 
-    salaryTable += "</table>";
-    document.getElementById("results_table").innerHTML = "<h2>Salaries</h2>" + salaryTable;
+    salarytable += "</table>";
+    document.getElementById("results_table").innerHTML = "<h2>Salaries</h2>" + salarytable;
 }

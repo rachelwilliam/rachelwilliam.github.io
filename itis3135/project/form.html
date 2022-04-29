@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        Deb's Dogs
+    </title>
+    <link href="styles/default.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <div data-include="components/header.html"></div>
+    <main>
+        <h2>Interest Form</h2>
+        <form action="#">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required=""><br>
+            <label for="num">Phone Number:</label><br>
+            <input type="text" id="num" name="num" required="" placeholder="(###) ###-####"><br>
+            <label for="email">Email Address:</label><br>
+            <input type="text" id="email" name="email" required="" placeholder="yourname@gmail.com">
+
+            <p>Which dog/dogs are you interested in?</p>
+                <input type="checkbox" id="interest1" name="interest1" value="charlie">
+                <label for="interest1">Charlie</label><br>
+                <input type="checkbox" id="interest2" name="interest2" value="teddy">
+                <label for="interest2">Teddy</label><br>
+                <input type="checkbox" id="interest3" name="interest3" value="echo">
+                <label for="interest3">Echo</label><br>
+    </main>
+    <br>
+    <br>
+    <div data-include="components/footer.html"></div>
+    <script src="scripts/htmlinclude.js"></script>
+</body>
+
+</html>

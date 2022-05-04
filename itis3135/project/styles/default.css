@@ -21,6 +21,10 @@ body {
     margin-right: 150px;
 }
 
+nav {
+    background-color: #222E50;
+}
+
 a {
     text-decoration: none;
     color: #E4F0D0;
@@ -40,7 +44,7 @@ header {
     border-spacing: 20px;
     font-family: Tahoma, sans-serif;
     text-align: center;
-    background-color: #222E50;
+    
     margin-top: 25px;
     margin-bottom: 50px;
 }

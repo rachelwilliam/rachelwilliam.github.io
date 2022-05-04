@@ -65,3 +65,12 @@ form {
 .interest {
     text-align: center;
 }
+
+.bx-wrapper {
+	margin-bottom: 20px;
+}
+#id_pager {
+	text-align: center;
+	font-size: 90%;
+	color: rgb(0, 7, 71);
+}

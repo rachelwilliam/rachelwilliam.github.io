@@ -38,7 +38,7 @@ p {
 header {
     border-bottom: solid #222E50;
     border-spacing: 20px;
-    border-style: ridge;
+    border-bottom-style: ridge;
     font-family: Tahoma, sans-serif;
     text-align: center;
     margin-top: 25px;

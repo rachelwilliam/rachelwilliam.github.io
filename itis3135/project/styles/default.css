@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 h1,
 h2,
 h3,
@@ -74,3 +78,20 @@ form {
 	font-size: 90%;
 	color: rgb(0, 7, 71);
 }
+
+.pictures {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  
+  .pictures::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

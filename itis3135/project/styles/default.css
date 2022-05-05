@@ -100,5 +100,10 @@ form {
 
 .bx-viewport {
     height: 550px !important;
-    width: 300px !important;
+    width: 450px !important;
+}
+
+.bx-wrapper {
+    height: 600px !important;
+    width: 500px !important;
 }

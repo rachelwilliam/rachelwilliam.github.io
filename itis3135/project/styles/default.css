@@ -109,3 +109,8 @@ form {
     font-size: 90%;
     color: rgb(0, 7, 71);
 }
+
+.slide img {
+    position: relative;
+    left: calc(50% + 20px);
+  }

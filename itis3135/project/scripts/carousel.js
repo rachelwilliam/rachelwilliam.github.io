@@ -3,7 +3,6 @@ $(document).ready(function() {
         randomStart: false,
         minSlides: 1,
         maxSlides: 1,
-        slideWidth: 500,
         slideMargin: 20,
         moveSlides: 1,
         captions: true,

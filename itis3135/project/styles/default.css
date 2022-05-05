@@ -99,11 +99,13 @@ form {
 }
 
 .bx-viewport {
+    text-align: center;
     height: 550px !important;
     width: 450px !important;
 }
 
 .bx-wrapper {
+    text-align: center;
     height: 550px !important;
     width: 450px !important;
 }

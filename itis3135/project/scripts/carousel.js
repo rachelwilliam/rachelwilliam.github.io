@@ -4,7 +4,7 @@ $(document).ready(function() {
         randomStart: false,
         minSlides: 1,
         maxSlides: 1,
-        slideMargin: 20,
+        slideMargin: 0,
         moveSlides: 1,
         captions: true,
         speed: 3000,

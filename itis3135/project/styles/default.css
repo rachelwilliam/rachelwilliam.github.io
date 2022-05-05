@@ -98,10 +98,19 @@ form {
 .bx-wrapper {
     text-align: center;
     position: relative;
-	margin: 0 auto;
-	padding: 0;
+    margin: 0 auto;
+    padding: 0;
     height: 540px !important;
     width: 435px !important;
+}
+
+.bx-wrapper .bx-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #666;
+    background: rgba(80, 80, 80, .75);
 }
 
 #id_pager {

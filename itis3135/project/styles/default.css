@@ -96,12 +96,8 @@ form {
 
 .bx-wrapper {
     text-align: center;
-    /*margin-bottom: 10px;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;*/
     position: relative;
-	margin: 0 auto 60px;
+	margin: 0 auto;
 	padding: 0;
     height: 550px !important;
     width: 450px !important;

@@ -4,7 +4,6 @@ $(document).ready(function() {
         minSlides: 1,
         maxSlides: 1,
         slideMargin: 20,
-        slideWidth: 450,
         moveSlides: 1,
         shrinkItems: true,
         captions: true,

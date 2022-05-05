@@ -71,16 +71,6 @@ form {
     text-align: center;
 }
 
-.bx-wrapper {
-    margin-bottom: 20px;
-}
-
-#id_pager {
-    text-align: center;
-    font-size: 90%;
-    color: rgb(0, 7, 71);
-}
-
 .pictures {
     list-style-type: none;
     text-align: center;
@@ -106,10 +96,16 @@ form {
 
 .bx-wrapper {
     text-align: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     height: 550px !important;
     width: 450px !important;
+}
+
+#id_pager {
+    text-align: center;
+    font-size: 90%;
+    color: rgb(0, 7, 71);
 }

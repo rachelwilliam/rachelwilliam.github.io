@@ -96,10 +96,13 @@ form {
 
 .bx-wrapper {
     text-align: center;
-    margin-bottom: 10px;
+    /*margin-bottom: 10px;
     margin-top: 10px;
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 10px;*/
+    position: relative;
+	margin: 0 auto 60px;
+	padding: 0;
     height: 550px !important;
     width: 450px !important;
 }
@@ -109,8 +112,3 @@ form {
     font-size: 90%;
     color: rgb(0, 7, 71);
 }
-
-.slide img {
-    position: relative;
-    left: calc(50% + 20px);
-  }

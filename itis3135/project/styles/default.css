@@ -99,5 +99,6 @@ form {
 }
 
 .bx-viewport {
-    height: 600px !important;
+    height: 550px !important;
+    width: 450px !important;
 }

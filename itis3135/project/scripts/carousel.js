@@ -1,6 +1,5 @@
 $(document).ready(function() {
     $("#slider").bxSlider({
-        mode: 'vertical',
         randomStart: false,
         minSlides: 1,
         maxSlides: 1,

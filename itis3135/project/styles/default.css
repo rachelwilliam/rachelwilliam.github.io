@@ -72,31 +72,32 @@ form {
 }
 
 .bx-wrapper {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
+
 #id_pager {
-	text-align: center;
-	font-size: 90%;
-	color: rgb(0, 7, 71);
+    text-align: center;
+    font-size: 90%;
+    color: rgb(0, 7, 71);
 }
 
 .pictures {
     list-style-type: none;
     text-align: center;
-  }
-  
-  .column {
+}
+
+.column {
     float: left;
     width: 50%;
     padding: 5px;
-  }
-  
-  .pictures::after {
+}
+
+.pictures::after {
     content: "";
     clear: both;
     display: table;
-  }
+}
 
-  .bx-viewport {
+.bx-viewport {
     height: 600px !important;
 }

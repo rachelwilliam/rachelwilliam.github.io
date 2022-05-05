@@ -4,9 +4,10 @@ $(document).ready(function() {
         minSlides: 1,
         maxSlides: 1,
         slideMargin: 0,
+        slideWidth: 450,
         moveSlides: 1,
         captions: true,
-        speed: 3000,
+        speed: 500,
         pager: true,
         pagerType: "short",
         pager_selector: "#id_pager"

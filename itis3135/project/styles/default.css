@@ -104,6 +104,15 @@ form {
     width: 435px !important;
 }
 
+.bx-wrapper .bx-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #666;
+    background: rgba(80, 80, 80, .75);
+    width: 90%;
+}
+
 .bx-wrapper .bx-caption span {
     color: #fff;
     font-family: Arial;

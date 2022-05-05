@@ -97,6 +97,6 @@ form {
     display: table;
   }
 
-  .bx-wrapper, .bx-viewport {
+  .bx-viewport {
     height: 600px !important;
 }

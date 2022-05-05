@@ -12,9 +12,9 @@ function addsalary()
     else
     {
         salaries.push(parseFloat(salary));
+        let name = document.getElementById('name').value;
+        names.push(name);
     }
-    let name = document.getElementById('name').value;
-    names.push(name);
 }
 
 function results()

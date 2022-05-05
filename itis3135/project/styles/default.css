@@ -106,6 +106,10 @@ form {
 
 .bx-wrapper {
     text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     height: 550px !important;
     width: 450px !important;
 }

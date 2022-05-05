@@ -4,9 +4,9 @@ let salaries = [];
 function addsalary()
 {
     let salary = document.getElementById("salary").value;
-    if (salary == "")
+    if (salary == "" || salary < 0 || isNaN(salary))
     {
-        alert("You must enter a name and a valid salary");
+        alert("You must enter a valid salary");
         salary = "";
     }
     else

@@ -63,6 +63,8 @@ figure {
     text-align: center;
 }
 
+/* interest form css */
+
 form {
     text-align: center;
 }
@@ -71,6 +73,7 @@ form {
     text-align: center;
 }
 
+/* displaying images side-by-side */
 .pictures {
     list-style-type: none;
     text-align: center;
@@ -88,6 +91,7 @@ form {
     display: table;
 }
 
+/* slideshow css */
 .bx-viewport {
     text-align: center;
     position: absolute;

@@ -108,10 +108,11 @@ form {
     width: 435px !important;
 }
 
-.bx-caption {
+.bx-wrapper .bx-caption {
     position: absolute;
     bottom: 0;
     left: 0;
+    right: 0;
     background: #666;
     background: rgba(80, 80, 80, .75);
     width: 75%;

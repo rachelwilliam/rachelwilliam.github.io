@@ -15,10 +15,10 @@ $(document).ready(function(){
             $.each(data, function () {
                 $.each(this, function (key, value) {
                     $("#breed").append(
-                        "<h3>" + value.breedname + "</h2>" +
-                        "<p>Average height: " + value.height + "</p>" +
-                        "<p>Average weight: " + value.weight + "</p>" +
-                        "<p>Average lifespan: " + value.lifespan + "</p>" +
+                        "<h3 style=\"color:rgb(0, 7, 71);\">" + value.breedname + "</h2>" +
+                        "<p style=\"text-align:\"center\";\">Average height: " + value.height + "</p>" +
+                        "<p style=\"text-align:\"center\";>Average weight: " + value.weight + "</p>" +
+                        "<p style=\"text-align:\"center\";>Average lifespan: " + value.lifespan + "</p>" +
                         "<br>"
                     );
                 });

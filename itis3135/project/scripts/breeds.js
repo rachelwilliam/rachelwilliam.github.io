@@ -1,4 +1,5 @@
-$(document).ready(function(){
+// This contains the ajax method to get the information from the breedlist.json file and display the information there on the Breeds page
+$(document).ready(function () {
     $.ajax({
         type: "get",
         url: "breedlist.json",

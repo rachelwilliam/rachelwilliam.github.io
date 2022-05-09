@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $.ajax({
         type: "get",
-        url: "breeds.json",
+        url: "breedlist.json",
         beforeSend: function () {
             $("#breeds").html("Loading...");
         },

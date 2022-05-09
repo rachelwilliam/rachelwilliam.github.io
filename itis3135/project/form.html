@@ -28,9 +28,9 @@
             <br>
 
             <p>First time dog owner?</p>
-            <input type="radio" id="yes" name="yes" value="yes">
+            <input type="radio" id="yes" name="yesorno" value="yes">
             <label for="yes">Yes</label><br>
-            <input type="radio" id="no" name="no" value="no">
+            <input type="radio" id="no" name="yesorno" value="no">
             <label for="no">No</label><br>
 
             <p class="interest">Which dog/dogs are you interested in?</p>
@@ -40,15 +40,17 @@
             <label for="interest2">Teddy</label><br>
             <input type="checkbox" id="interest3" name="interest3" value="echo">
             <label for="interest3">Echo</label><br>
+
+            <p>A little bit about yourself: </p>
+            <textarea rows="4" cols="50" name="comment" form="contact">
+            Enter text here...</textarea>
             <br>
             <br>
             <input type="reset" value="Reset">
             <button type="button" onclick="loadsubmit()">Submit</button>
             <p id="submittext"></p>
         </form>
-        <p>A little bit about yourself: </p>
-        <textarea rows="4" cols="50" name="comment" form="contact">
-            Enter text here...</textarea>
+
     </main>
     <br>
     <br>

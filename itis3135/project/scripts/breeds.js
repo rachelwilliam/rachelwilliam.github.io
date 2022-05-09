@@ -7,10 +7,12 @@ $(document).ready(function () {
             $("#breed").html("Loading...");
         },
         timeout: 10000,
+        // in case of an error
         error: function (xhr, status, error) {
             alert("Error: " + xhr.status + " - " + error);
         },
         dataType: "json",
+        // when the method goes as planned
         success: function (data) {
             $("#breed").html("");
             $.each(data, function () {

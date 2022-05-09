@@ -1,0 +1,20 @@
+{"breeds":[
+	{
+		"breedname": "Miniature Poodle",
+		"height": "15 inches",
+		"weight": "12-20 pounds",
+		"lifespan": "14-17 years"
+	},
+	{
+		"breedname": "Maltipoo",
+		"height": "8-14 inches",
+		"weight": "5-20 pounds",
+		"lifespan": "10-15 years"
+	},
+	{
+		"breedname": "Miniature Poodle",
+		"height": "10-12 inches",
+		"weight": "6-12 pounds",
+		"lifespan": "12-15 years"
+	}
+]}

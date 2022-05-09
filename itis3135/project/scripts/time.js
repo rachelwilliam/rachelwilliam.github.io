@@ -7,6 +7,7 @@ function loadsubmit() {
         document.getElementById("submittext").innerHTML = this.responseText;
       }
     };
+    // demopost.txt contains the information to be displayed
     req.open("POST", "demopost.txt", true);
     req.send();
 }

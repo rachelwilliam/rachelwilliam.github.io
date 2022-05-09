@@ -27,13 +27,13 @@ body {
 /* Links */
 a {
     text-decoration: none;
-    color: #E4F0D0;
+    color: #260F26;
     font-weight: bold;
 }
 
 /* Hovering over a link */
 a:hover {
-    color: #073B4C;
+    color: #38405f;
 }
 
 /* Paragraph */

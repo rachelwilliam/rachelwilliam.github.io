@@ -3,7 +3,7 @@ $(document).ready(function(){
         type: "get",
         url: "breedlist.json",
         beforeSend: function () {
-            $("#breeds").html("Loading...");
+            $("#breed").html("Loading...");
         },
         timeout: 10000,
         error: function (xhr, status, error) {
@@ -11,10 +11,10 @@ $(document).ready(function(){
         },
         dataType: "json",
         success: function (data) {
-            $("#breeds").html("");
+            $("#breed").html("");
             $.each(data, function () {
                 $.each(this, function (key, value) {
-                    $("#breeds").append(
+                    $("#breed").append(
                         "<h3>" + value.breedname + "</h2>" +
                         "<p>Average height: " + value.height + "</p>" +
                         "<p>Average weight: " + value.weight + "</p>" +

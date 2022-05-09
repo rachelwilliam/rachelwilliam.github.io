@@ -15,7 +15,7 @@ $(document).ready(function(){
             $.each(data, function () {
                 $.each(this, function (key, value) {
                     $("#breeds").append(
-                        "<h2>" + value.breedname + "</h2>" +
+                        "<h3>" + value.breedname + "</h2>" +
                         "<p>Average height: " + value.height + "</p>" +
                         "<p>Average weight: " + value.weight + "</p>" +
                         "<p>Average lifespan: " + value.lifespan + "</p>" +

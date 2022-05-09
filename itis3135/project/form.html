@@ -27,7 +27,7 @@
             <input type="text" id="email" name="email" required="" placeholder="yourname@gmail.com">
             <br>
 
-            <p>First time dog owner?</p>
+            <p class="interest">First time dog owner?</p>
             <input type="radio" id="yes" name="yesorno" value="yes">
             <label for="yes">Yes</label><br>
             <input type="radio" id="no" name="yesorno" value="no">
@@ -41,12 +41,11 @@
             <input type="checkbox" id="interest3" name="interest3" value="echo">
             <label for="interest3">Echo</label><br>
 
-            <p>A little bit about yourself: </p>
+            <p class="interest">A little bit about yourself: </p>
             <textarea rows="4" cols="50" name="comment" form="contact">
             Enter text here...</textarea>
             <br>
             <br>
-            <input type="reset" value="Reset">
             <button type="button" onclick="loadsubmit()">Submit</button>
             <p id="submittext"></p>
         </form>

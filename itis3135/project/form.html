@@ -7,6 +7,7 @@
         Deb's Dogs | Contact Form
     </title>
     <link href="styles/default.css" type="text/css" rel="stylesheet">
+    <!--pawprint icon-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="scripts/time.js"></script>
@@ -17,6 +18,7 @@
     <main>
         <h2>Interest Form</h2>
         <form action="#" id="contact">
+            <!--basic user information-->
             <label for="first">First Name:</label><br>
             <input type="text" id="first" name="first" required=""><br>
             <label for="last">Last Name:</label><br>
@@ -27,12 +29,14 @@
             <input type="text" id="email" name="email" required="" placeholder="yourname@gmail.com">
             <br>
 
+            <!--finding out if this is their first time looking for a dog-->
             <p class="interest">First time dog owner?</p>
             <input type="radio" id="yes" name="yesorno" value="yes">
             <label for="yes">Yes</label><br>
             <input type="radio" id="no" name="yesorno" value="no">
             <label for="no">No</label><br>
 
+            <!--asking the user to choose which dog/dogs they are interested in-->
             <p class="interest">Which dog/dogs are you interested in?</p>
             <input type="checkbox" id="interest1" name="interest1" value="charlie">
             <label for="interest1">Charlie</label><br>
@@ -41,6 +45,7 @@
             <input type="checkbox" id="interest3" name="interest3" value="echo">
             <label for="interest3">Echo</label><br>
 
+            <!--some extra information about the user-->
             <p class="interest">A little bit about yourself: </p>
             <textarea rows="4" cols="50" name="comment" form="contact">
             Enter text here...</textarea>

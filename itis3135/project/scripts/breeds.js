@@ -18,7 +18,7 @@ $(document).ready(function () {
             $.each(data, function () {
                 $.each(this, function (key, value) {
                     $("#breed").append(
-                        "<h3 style=\"color:#073B4C;\">" + value.breedname + "</h2>" +
+                        "<h3 style=\"color:#1B264F;\">" + value.breedname + "</h2>" +
                         "<p style=\"text-align:center;\">Average height: " + value.height + "</p>" +
                         "<p style=\"text-align:center;\">Average weight: " + value.weight + "</p>" +
                         "<p style=\"text-align:center;\">Average lifespan: " + value.lifespan + "</p>" +

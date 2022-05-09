@@ -316,19 +316,29 @@
                 control and I don't think I've ever left one without atleast one book in my hand.
             </p>
         </section>
-
-        <footer>
-            <br>
-            Designed by <a href="../william-enterprises.com/" target="_blank">William Enterprises &copy;2022</a>
-            <br>
-            <br>
-            <a href="https://validator.w3.org/check?uri=referer">
-                <img src="images/button_validation_html5.png" class="image" alt="HTML Validation">
-            </a>
-            <a href="https://jigsaw.w3.org/css-validator/check/referer">
-                <img src="images/button_validation_css.png" class="image" alt="CSS Validation">
-            </a>
-        </footer>
-
-
     </main>
+
+    <footer>
+        <br>
+        Designed by <a href="../william-enterprises.com/" target="_blank">William Enterprises &copy;2022</a>
+        <br>
+        <br>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer" id="validation_link_css">
+            <img src="images/button_validation_css.png" alt="css validator"></a>
+        <a href="https://validator.w3.org/check?uri=referer" id="validation_link_html">
+            <img src="images/button_validation_html5.png" alt="html validator"></a>
+
+        <script>
+            document.getElementById("validation_link_html").setAttribute(
+                "href",
+                "https://validator.w3.org/check?uri=" + location.href
+            );
+            document.getElementById("validation_link_css").setAttribute(
+                "href",
+                "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href
+            );
+        </script>
+    </footer>
+</body>
+
+</html>
